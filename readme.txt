@@ -2,7 +2,7 @@ Hackathon Terremoto Bisogno 2: Casa Sicura
 
 Ambiente di sviluppo
 
-•	Progetto Visual Studio, C#, ASP.NET, Hybernate
+•	Progetto Visual Studio, C#, ASP.NET, NHibernate
 •	JQueryMobile
 •	Database SQL Server Express, in preparazione versione per mySql
 
