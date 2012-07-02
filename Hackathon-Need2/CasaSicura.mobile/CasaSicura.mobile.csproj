@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C1BFE433-823B-40CD-96EE-762C74BEC573}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CasaSicura.mobile</RootNamespace>
+    <AssemblyName>CasaSicura.mobile</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>favicon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="NHibernate, Version=2.0.1.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\NHibernate.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Castle.Core.dll" />
+    <Content Include="bin\Castle.DynamicProxy2.dll" />
+    <Content Include="bin\Hackathon-Need2-BusinessLogic.dll" />
+    <Content Include="bin\Hackathon-Need2-BusinessLogic.pdb" />
+    <Content Include="bin\Hackathon-Need2-Model.dll" />
+    <Content Include="bin\Hackathon-Need2-Model.pdb" />
+    <Content Include="bin\Iesi.Collections.dll" />
+    <Content Include="bin\log4net.dll" />
+    <Content Include="bin\NHibernate.dll" />
+    <Content Include="bin\NHibernate.xml" />
+    <Content Include="controllo.aspx" />
+    <Content Include="css\styles.css" />
+    <Content Include="css\themes\default\images\ajax-loader.gif" />
+    <Content Include="css\themes\default\images\ajax-loader.png" />
+    <Content Include="css\themes\default\images\icons-18-black.png" />
+    <Content Include="css\themes\default\images\icons-18-white.png" />
+    <Content Include="css\themes\default\images\icons-36-black.png" />
+    <Content Include="css\themes\default\images\icons-36-white.png" />
+    <Content Include="css\themes\default\jquery.mobile-1.1.0.css" />
+    <Content Include="css\themes\default\jquery.mobile-1.1.0.min.css" />
+    <Content Include="css\themes\default\jquery.mobile.structure-1.1.0.css" />
+    <Content Include="css\themes\default\jquery.mobile.structure-1.1.0.min.css" />
+    <Content Include="css\themes\default\jquery.mobile.theme-1.1.0.css" />
+    <Content Include="css\themes\default\jquery.mobile.theme-1.1.0.min.css" />
+    <Content Include="Default.aspx" />
+    <Content Include="images\1339918078_world.png" />
+    <Content Include="images\1339918585_world.png" />
+    <Content Include="images\1339930000_Home.jpg" />
+    <Content Include="images\1339930224_Home.png" />
+    <Content Include="images\add_image.png" />
+    <Content Include="images\logo.png" />
+    <Content Include="images\_logo.png" />
+    <Content Include="js\custom-ant.js" />
+    <Content Include="js\google-maps.js" />
+    <Content Include="js\jquery.js" />
+    <Content Include="js\jquery.mobile-1.1.0.js" />
+    <Content Include="js\jquery.mobile-1.1.0.min.js" />
+    <Content Include="favicon.ico" />
+    <Content Include="MailTemplates\templateDanno.htm" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="alert.cs" />
+    <Compile Include="controllo.aspx.cs">
+      <DependentUpon>controllo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="controllo.aspx.designer.cs">
+      <DependentUpon>controllo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="public\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Hackathon-Need2-BusinessLogic\Hackathon-Need2-BusinessLogic.csproj">
+      <Project>{F234FB2F-D461-4AF3-84C3-FD857B914F44}</Project>
+      <Name>Hackathon-Need2-BusinessLogic</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Hackathon-Need2-Model\Hackathon-Need2-Model.csproj">
+      <Project>{8283B2AF-FAA6-4CE9-9A38-B2C6E0F1B630}</Project>
+      <Name>Hackathon-Need2-Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>65074</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" schema="dbo" namespace="Hackathon.Need2.Model" assembly="Hackathon-Need2-Model">
+  <class  name="File" table="TBL_FILE">
+    <id name="ID" type="Guid" column="FLD_FIL_ID">
+      <generator class="guid" />
+    </id>
+    <property name="Nome" column="FLD_FIL_NOME" type="String" />
+    <property name="Estensione" column="FLD_FIL_ESTENSIONE" type="String" />
+  </class>
+</hibernate-mapping>

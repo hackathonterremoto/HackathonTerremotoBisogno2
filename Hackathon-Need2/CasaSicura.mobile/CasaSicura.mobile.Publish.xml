@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<publishData>
+  <publishProfile publishUrl="C:\Users\ant\Documents\visual studio 2010\Projects\Hackathon-Need2\PUBLISH" deleteExistingFiles="False" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="http://hackathon.antonioreggiani.it" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="fasthost" publishMethod="FileSystem" replaceMatchingFiles="True" userName="ftpmanager" savePWD="True" userPWD="AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAASvCWYIm5DEShyW4SY9Z3UwAAAAACAAAAAAAQZgAAAAEAACAAAACxxZrgkJsr3wsSjCkmnE1MGxcRX03jI6haNL2jt+6HjwAAAAAOgAAAAAIAACAAAACLXzzWQUkVa7H6IsI8R+hJ2qUHmgy4ghKFDX6nuDx34SAAAABGVjGj+Nw78xiHfXonybkFPWi8pGFaAD2sl1qM+MzXp0AAAADg1FAxcpoJ6Yn8UdGvdU+2GuZ8nAxJUyrZkvTnOeyVzh/aZbuKVIDcG6UywpuQ5lX4WRHb5BGJ8GIq8BO3WdZJ" SelectedForPublish="True">
+    <file relUrl="bin/Hackathon-Need2-Model.dll" publishTime="06/17/2012 10:01:05" />
+    <file relUrl="js/google-maps.js" publishTime="06/30/2012 19:28:58" />
+    <file relUrl="images/logo.png" publishTime="06/30/2012 19:29:07" />
+    <file relUrl="MailTemplates/templateDanno.htm" publishTime="06/30/2012 19:28:56" />
+    <file relUrl="controllo.aspx" publishTime="07/01/2012 00:24:14" />
+    <file relUrl="bin/log4net.dll" publishTime="06/16/2012 21:43:52" />
+    <file relUrl="Web.config" publishTime="07/02/2012 10:14:25" />
+    <file relUrl="css/themes/default/jquery.mobile.theme-1.1.0.css" publishTime="06/30/2012 19:29:09" />
+    <file relUrl="bin/Mappings/Riferimento.hbm.xml" publishTime="06/17/2012 01:13:34" />
+    <file relUrl="bin/Iesi.Collections.dll" publishTime="06/16/2012 21:07:02" />
+    <file relUrl="css/themes/default/jquery.mobile-1.1.0.min.css" publishTime="06/30/2012 19:29:09" />
+    <file relUrl="css/themes/default/jquery.mobile.structure-1.1.0.min.css" publishTime="06/30/2012 19:29:09" />
+    <file relUrl="css/themes/default/jquery.mobile.structure-1.1.0.css" publishTime="06/30/2012 19:29:09" />
+    <file relUrl="bin/Hackathon-Need2-BusinessLogic.dll" publishTime="06/29/2012 18:35:07" />
+    <file relUrl="css/themes/default/images/icons-18-white.png" publishTime="06/30/2012 19:29:09" />
+    <file relUrl="bin/Castle.DynamicProxy2.dll" publishTime="06/16/2012 21:07:02" />
+    <file relUrl="bin/Mappings/SegnalazionePreliminareDanno.hbm.xml" publishTime="06/17/2012 04:01:28" />
+    <file relUrl="js/jquery.mobile-1.1.0.min.js" publishTime="06/30/2012 19:28:58" />
+    <file relUrl="images/add_image.png" publishTime="06/30/2012 19:29:07" />
+    <file relUrl="bin/Hackathon-Need2-Model.pdb" publishTime="06/17/2012 10:01:05" />
+    <file relUrl="images/1339930224_Home.png" publishTime="06/30/2012 19:29:07" />
+    <file relUrl="bin/Mappings/File.hbm.xml" publishTime="06/17/2012 00:54:30" />
+    <file relUrl="bin/Castle.Core.dll" publishTime="06/16/2012 21:07:02" />
+    <file relUrl="bin/Mappings/OggettoSegnalazionePreliminareDanno.hbm.xml" publishTime="06/16/2012 21:48:08" />
+    <file relUrl="images/1339930000_Home.jpg" publishTime="06/30/2012 19:29:07" />
+    <file relUrl="css/themes/default/images/icons-36-white.png" publishTime="06/30/2012 19:29:09" />
+    <file relUrl="bin/CasaSicura.mobile.dll" publishTime="07/02/2012 13:06:11" />
+    <file relUrl="Default.aspx" publishTime="07/01/2012 00:24:31" />
+    <file relUrl="bin/Hackathon-Need2-BusinessLogic.pdb" publishTime="06/29/2012 18:35:07" />
+    <file relUrl="images/_logo.png" publishTime="06/30/2012 19:29:07" />
+    <file relUrl="css/themes/default/images/icons-36-black.png" publishTime="06/30/2012 19:29:09" />
+    <file relUrl="css/themes/default/images/icons-18-black.png" publishTime="06/30/2012 19:29:09" />
+    <file relUrl="bin/CasaSicura.mobile.pdb" publishTime="07/02/2012 13:06:11" />
+    <file relUrl="js/jquery.js" publishTime="06/30/2012 19:28:58" />
+    <file relUrl="css/themes/default/images/ajax-loader.gif" publishTime="06/30/2012 19:29:09" />
+    <file relUrl="js/jquery.mobile-1.1.0.js" publishTime="06/30/2012 19:28:58" />
+    <file relUrl="css/styles.css" publishTime="06/30/2012 19:29:09" />
+    <file relUrl="css/themes/default/jquery.mobile.theme-1.1.0.min.css" publishTime="06/30/2012 19:29:09" />
+    <file relUrl="bin/Mappings/DettaglioSegnalazionePreliminareDanno.hbm.xml" publishTime="06/17/2012 02:54:30" />
+    <file relUrl="css/themes/default/images/ajax-loader.png" publishTime="06/30/2012 19:29:09" />
+    <file relUrl="bin/Mappings/Recapito.hbm.xml" publishTime="06/16/2012 23:05:50" />
+    <file relUrl="favicon.ico" publishTime="07/02/2012 10:02:10" />
+    <file relUrl="js/custom-ant.js" publishTime="06/30/2012 19:28:58" />
+    <file relUrl="bin/NHibernate.xml" publishTime="06/16/2012 21:07:02" />
+    <file relUrl="images/1339918585_world.png" publishTime="06/30/2012 19:29:07" />
+    <file relUrl="bin/NHibernate.dll" publishTime="06/16/2012 21:07:02" />
+    <file relUrl="images/1339918078_world.png" publishTime="06/30/2012 19:29:07" />
+    <file relUrl="css/themes/default/jquery.mobile-1.1.0.css" publishTime="06/30/2012 19:29:09" />
+  </publishProfile>
+</publishData>

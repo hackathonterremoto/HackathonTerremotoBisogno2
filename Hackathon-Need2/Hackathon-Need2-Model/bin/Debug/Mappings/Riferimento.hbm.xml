@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" schema="dbo" namespace="Hackathon.Need2.Model" assembly="Hackathon-Need2-Model">
+  <class  name="Riferimento" table="TBL_RIFERIMENTO">
+    <id name="ID" type="Guid" column="FLD_RIF_ID">
+      <generator class="guid" />
+    </id>
+    <property name="Nominativo" column="FLD_RIF_NOMINATIVO" type="String" />
+    <property name="Telefono" column="FLD_RIF_TELEFONO" type="String" />
+    <property name="EMail" column="FLD_RIF_EMAIL" type="String" />
+  </class>
+</hibernate-mapping>

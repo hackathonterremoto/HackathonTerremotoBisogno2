@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" schema="dbo" namespace="Hackathon.Need2.Model" assembly="Hackathon-Need2-Model">
+  <class  name="Recapito" table="TBL_RECAPITO">
+    <id name="ID" type="Guid" column="FLD_REC_ID">
+      <generator class="guid" />
+    </id>
+    <property name="Indirizzo" column="FLD_REC_INDIRIZZO" type="String" />
+    <property name="Localita" column="FLD_REC_LOCALITA" type="String" />
+    <property name="Provincia" column="FLD_REC_PROVINCIA" type="String" />
+  </class>
+</hibernate-mapping>

@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Hackathon.Need2.Model.OggettoSegnalazionePreliminareDanno">
+    <Position X="0.75" Y="4.5" Width="2" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAEAAEAAAA=</HashCode>
+      <FileName>Classi\OggettoSegnalazionePreliminareDanno.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hackathon.Need2.Model.SegnalazionePreliminareDanno">
+    <Position X="1" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQBIAAhAAEAAAAACAAAgAABAACAEAEAAAAADA=</HashCode>
+      <FileName>Classi\SegnalazionePreliminareDanno.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Oggetto" />
+      <Property Name="Recapito" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="Dettagli" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Hackathon.Need2.Model.Recapito">
+    <Position X="4.75" Y="1" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAgAAQAAAAAEAACAAAAAAAAAAEAAIAAAQ=</HashCode>
+      <FileName>Classi\Recapito.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hackathon.Need2.Model.File">
+    <Position X="8" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAIAAAAAAgAAAAAAAAAAAAAAAAAAAEAAEAAEAAAA=</HashCode>
+      <FileName>Classi\File.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hackathon.Need2.Model.DettaglioSegnalazionePreliminareDanno">
+    <Position X="4" Y="4" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAgEMAAAAAABAAAAAFBAAAAAAEAAAAAAA=</HashCode>
+      <FileName>Classi\DettaglioSegnalazionePreliminareDanno.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="File" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

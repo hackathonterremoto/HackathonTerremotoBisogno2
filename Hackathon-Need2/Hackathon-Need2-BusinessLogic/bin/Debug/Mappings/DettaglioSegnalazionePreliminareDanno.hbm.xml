@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" schema="dbo" namespace="Hackathon.Need2.Model" assembly="Hackathon-Need2-Model">
+  <class  name="DettaglioSegnalazionePreliminareDanno" table="TBL_DETTAGLIO_SEGNALAZIONE_PRELIMINARE_DANNO">
+    <id name="ID" type="Guid" column="FLD_DET_ID">
+      <generator class="guid" />
+    </id>
+    <property name="DataCreazione" column="FLD_DET_DATA_CREAZIONE" type="DateTime" />
+    <property name="Corpo" column="FLD_DET_CORPO" type="String" />
+    <many-to-one name="SegnalazionePreliminareDanno" column="FLD_SEG_ID" class="SegnalazionePreliminareDanno"
+                 lazy="false" />
+    <list name="m_Files" lazy="false" cascade="none" access="field"
+          table="TBL_DETTAGLIO_SEGNALAZIONE_PRELIMINARE_DANNO_FILE" >
+      <key column="FLD_DET_ID" />
+      <index column="FLD_DEF_ORDINE" />
+      <many-to-many class="Recapito" column="FLD_FIL_ID" />
+    </list>
+  </class>
+</hibernate-mapping>

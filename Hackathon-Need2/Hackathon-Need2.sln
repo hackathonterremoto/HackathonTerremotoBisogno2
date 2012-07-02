@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hackathon-Need2-Model", "Hackathon-Need2-Model\Hackathon-Need2-Model.csproj", "{8283B2AF-FAA6-4CE9-9A38-B2C6E0F1B630}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hackathon-Need2-BusinessLogic", "Hackathon-Need2-BusinessLogic\Hackathon-Need2-BusinessLogic.csproj", "{F234FB2F-D461-4AF3-84C3-FD857B914F44}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CasaSicura.mobile", "CasaSicura.mobile\CasaSicura.mobile.csproj", "{C1BFE433-823B-40CD-96EE-762C74BEC573}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F234FB2F-D461-4AF3-84C3-FD857B914F44} = {F234FB2F-D461-4AF3-84C3-FD857B914F44}
+		{8283B2AF-FAA6-4CE9-9A38-B2C6E0F1B630} = {8283B2AF-FAA6-4CE9-9A38-B2C6E0F1B630}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8283B2AF-FAA6-4CE9-9A38-B2C6E0F1B630}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8283B2AF-FAA6-4CE9-9A38-B2C6E0F1B630}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8283B2AF-FAA6-4CE9-9A38-B2C6E0F1B630}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8283B2AF-FAA6-4CE9-9A38-B2C6E0F1B630}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F234FB2F-D461-4AF3-84C3-FD857B914F44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F234FB2F-D461-4AF3-84C3-FD857B914F44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F234FB2F-D461-4AF3-84C3-FD857B914F44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F234FB2F-D461-4AF3-84C3-FD857B914F44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1BFE433-823B-40CD-96EE-762C74BEC573}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1BFE433-823B-40CD-96EE-762C74BEC573}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1BFE433-823B-40CD-96EE-762C74BEC573}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1BFE433-823B-40CD-96EE-762C74BEC573}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

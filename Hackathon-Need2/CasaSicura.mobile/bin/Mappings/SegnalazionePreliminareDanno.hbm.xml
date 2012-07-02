@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" schema="dbo" namespace="Hackathon.Need2.Model" assembly="Hackathon-Need2-Model">
+  <class  name="SegnalazionePreliminareDanno" table="TBL_SEGNALAZIONE_PRELIMINARE_DANNO">
+    <id name="ID" type="Guid" column="FLD_SEG_ID">
+      <generator class="guid" />
+    </id>
+    <property name="DataCreazione" column="FLD_SEG_DATA_CREAZIONE" type="DateTime" />
+    <property name="Definitivo" column="FLD_SEG_DEFINITIVO" type="Boolean" />
+    <many-to-one name="Oggetto" column="FLD_OGG_ID" class="OggettoSegnalazionePreliminareDanno" />
+    <list name="m_Recapiti" lazy="false" cascade="none" access="field"
+          table="TBL_SEGNALAZIONE_PRELIMINARE_DANNO_RECAPITO" >
+      <key column="FLD_SEG_ID" />
+      <index column="FLD_SER_ORDINE" />
+      <many-to-many class="Recapito" column="FLD_REC_ID" />
+    </list>
+    <list name="m_Riferimenti" lazy="false" cascade="none" access="field"
+          table="TBL_SEGNALAZIONE_PRELIMINARE_DANNO_RIFERIMENTO" >
+      <key column="FLD_SEG_ID" />
+      <index column="FLD_SEF_ORDINE" />
+      <many-to-many class="Recapito" column="FLD_RIF_ID" />
+    </list>
+    <list name="Dettagli" lazy="false" cascade="none" access="field.pascalcase-m-underscore"
+          table="TBL_DETTAGLIO_SEGNALAZIONE_PRELIMINARE_DANNO" inverse="true" >
+      <key column="FLD_SEG_ID" />
+      <index column="FLD_DET_ORDINE" />
+      <one-to-many class="DettaglioSegnalazionePreliminareDanno" />
+    </list>
+  </class>
+</hibernate-mapping>
